@@ -12,12 +12,12 @@ namespace Bridge
 
         public void On()
         {
-            Console.WriteLine("Switch on the equipment...");
+            Console.WriteLine("Switch on the equipment");
             Equipment.PowerOn();   
         }
         public void Off()
         {
-            Console.WriteLine("Switch off the equipment...");
+            Console.WriteLine("Switch off the equipment");
             Equipment.PowerOff();
         }
     }
